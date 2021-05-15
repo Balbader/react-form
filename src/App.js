@@ -21,7 +21,7 @@ class App extends Component {
             job: 'Bartender',
           },
         ]
-
+    
         return (
           <div className="container">
             <Table characterData={characters} />
