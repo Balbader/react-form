@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-const Tableheader = () => {
+const TableHeader = () => {
     return (
         <thead>
             <tr>
@@ -39,7 +39,7 @@ class Table extends Component {
     render() {
         return (
             <table>
-                <Tableheader />
+                <TableHeader />
                 <TableBody />
             </table>
         )
