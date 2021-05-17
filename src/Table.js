@@ -27,7 +27,7 @@ const TableBody = (props) => {
 }
 
 const Table = (props) => {
-    const { characterData, removeCharacter} = props
+    const { characterData, removeCharacter } = props
 
     return (
         <table>
